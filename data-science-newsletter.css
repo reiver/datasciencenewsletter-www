@@ -6,3 +6,11 @@ html,body {
 h1 {
 	text-align:center;
 }
+
+
+.top-bar {
+	width:100%;
+	height:0.5em;
+	background-color:#4387FD;
+	margin-bottom:1.3em;
+}

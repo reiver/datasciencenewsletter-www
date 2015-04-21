@@ -1,5 +1,7 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
+		<meta charset="utf-8" />
 		<title>Data Science Newsletter</title>
 
 		<meta name="description" content="Data Science Newsletter" />
@@ -35,14 +37,29 @@
 	</head>
 
 	<body>
-		<header>
-			<h1>Data Science Newsletter</h1>
-		</header>
+		<div class="top-bar"></div>
 
-		<center><div style="text-align:left;width:510px;">
-			<p>
-				<em>Data Science Newsletter</em> 
-			</p>
+		<div class="container">
+
+			<div class="jumbotron">
+				<h1>Data Science Newsletter</h1>
+				<p style="text-align:justify"><small>
+					Covers <strong>Data Science</strong> topics such as
+					<strong>Machine Learning</strong>,
+					<strong>Data Visualization</strong>,
+					<strong>R</strong>,
+					<strong>Big Data</strong>,
+					<strong>Data Mining</strong>,
+					<strong>MapReduce</strong>,
+					<strong>Statistics</strong>,
+					<strong>Analytics</strong>,
+					and more!
+				</small></p>
+			</div>
+
+				<p>
+					<em>Data Science Newsletter</em> 
+				</p>
 
 <div id="revue-embed">
   <form action="https://www.getrevue.co/profile/datasciencenl/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
@@ -59,12 +76,14 @@
     <input class="form-control" placeholder="Last name... (optional)" type="text" name="member[last_name]" id="member_last_name">
   </div>
   <div class="revue-form-actions">
-    <input type="submit" value="Subscribe" name="member[subscribe]" id="member_submit">
+    <input class="btn btn-lg btn-success" type="submit" value="Subscribe" name="member[subscribe]" id="member_submit">
   </div>
   </form>
 </div>
 
-		</div></center>
+
+		</div> <!-- class="container" -->
+
 
 <!-- Start of StatCounter Code for Default Guide -->
 <script type="text/javascript">
